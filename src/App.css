@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.reddit-list{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.reddit, .composer, .car{
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+.composer-list, .car-list{
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

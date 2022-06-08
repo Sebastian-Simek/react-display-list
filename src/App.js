@@ -1,11 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
-// import your arrays here
-
+import CarList from './CarList';
+import CatList from './CatList';
+import ComposerList from './ComposerList';
+import RedditList from './RedditList';
+import { cats } from './cats.js';
+import { cars } from './cars.js';
+import { composers } from './composers.js';
+import { reddit } from './reddit.js';
 function App() {
   return (
     <div className="App">
-        Render all your lists here. Pass the arrays as props.
+      <CatList cats={cats}/>
+      <hr/>
+      <CarList cars={cars}/>
+      <hr/>
+      <ComposerList composers={composers}/>
+      <hr/>
+      <RedditList reddit={reddit}/>
     </div>
   );
 }
