@@ -7,7 +7,6 @@ import { cats } from './cats.js';
 import { cars } from './cars.js';
 import { composers } from './composers.js';
 import { reddit } from './reddit.js';
-console.log(reddit);
 function App() {
   return (
     <div className="App">
