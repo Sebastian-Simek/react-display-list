@@ -2,7 +2,7 @@
 
 export default function ComposerItem({ name, era, hits }) {
   return (
-    <div>
+    <div className='composer'>
       <h3>{name}</h3>
       <p>{era}</p>
       {
