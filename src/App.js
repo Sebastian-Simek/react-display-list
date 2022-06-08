@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-// import your arrays here
+import CatList from './CatList';
+import { cats } from './cats.js';
+
 
 function App() {
   return (
     <div className="App">
-        Render all your lists here. Pass the arrays as props.
+      <CatList cats={cats}/>
     </div>
   );
 }
